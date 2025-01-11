@@ -1,0 +1,756 @@
+{
+ "Version" : 1,
+ "Sequence" : {
+  "BackgroundColor" : [0.800000,0.800000,0.800000],
+  "DefaultViewpoint" : "Root/InitialSpawnArea",
+  "Framerate" : 24,
+  "ExportStart" : 0,
+  "ExportEnd" : 126000,
+  "CameraResolution" : [
+   1920,
+   1080],
+  "RootLayer" : {
+   "Name" : "Root",
+   "Visible" : true,
+   "Locked" : false,
+   "Collapsed" : false,
+   "BBoxVisible" : false,
+   "Opacity" : 1.000000,
+   "Type" : "Group",
+   "IsModelTopLayer" : false,
+   "KeepAlive" : {
+    "Type" : "None"
+   },
+   "Transform" : {
+    "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+    "Scale" : 1.0000000000000000e+00,
+    "Flip" : "N",
+    "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+   },
+   "Pivot" : {
+    "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+    "Scale" : 1.0000000000000000e+00,
+    "Flip" : "N",
+    "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+   },
+   "Animation" : {
+    "Duration" : "45360000",
+    "Timeline" : true,
+    "StartOffset" : "0",
+    "MaxRepeatCount" : "0",
+    "Keys" : {
+     "Visibility" : [
+      {
+       "Time" : "0",
+       "Value" : true,
+       "Interpolation" : "None"
+      }],
+     "Offset" : [
+      {
+       "Time" : "0",
+       "Value" : 0,
+       "Interpolation" : "None"
+      }]
+    }
+   },
+   "Implementation" : {
+    "Children" : [
+     {
+      "Name" : "InitialSpawnArea",
+      "Visible" : false,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Viewpoint",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Version" : 1,
+       "Color" : [0.660721,0.558428,0.580051],
+       "Sphere" : [0.000000,1.000000,0.000000,2.000000],
+       "AllowTranslationX" : true,
+       "AllowTranslationY" : true,
+       "AllowTranslationZ" : true,
+       "DataFileOffset" : "0000000000000008",
+       "Exporting" : true,
+       "ShowingVolume" : false,
+       "TypeStr" : "FloorLevel"
+      }
+     },
+     {
+      "Name" : "Paint",
+      "Visible" : true,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Paint",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [-2.7755575615628914e-17,1.3877787807814457e-17,2.7755575615628914e-17,1.0000000000000000e+00],
+       "Scale" : 9.9999999999999978e-01,
+       "Flip" : "N",
+       "Translation" : [1.0838962722914386e-06,3.3228960205633611e-07,-8.7695079287186715e-07]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [5.7741897583007813e+02,-1.5145797424316406e+03,-1.8748121414184563e+03]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Framerate" : 24,
+       "MaxRepeatCount" : 1,
+       "Drawings" : [
+        {
+         "BoundingBox" : [-967.353699,301.899933,-15.759990,693.933289,-180.476151,134.065170],
+         "DataFileOffset" : "000000000010001c"
+        }],
+       "Frames" : [
+        "0"]
+      }
+     },
+     {
+      "Name" : "project01",
+      "Visible" : true,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Group",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Children" : [
+        {
+         "Name" : "Paint",
+         "Visible" : true,
+         "Locked" : false,
+         "Collapsed" : false,
+         "BBoxVisible" : false,
+         "Opacity" : 1.000000,
+         "Type" : "Paint",
+         "IsModelTopLayer" : false,
+         "KeepAlive" : {
+          "Type" : "None"
+         },
+         "Transform" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+         },
+         "Pivot" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+         },
+         "Animation" : {
+          "Duration" : "0",
+          "Timeline" : false,
+          "StartOffset" : "0",
+          "MaxRepeatCount" : "0",
+          "Keys" : {
+           "Visibility" : [
+            {
+             "Time" : "0",
+             "Value" : true,
+             "Interpolation" : "None"
+            }],
+           "Offset" : [
+            {
+             "Time" : "0",
+             "Value" : 0,
+             "Interpolation" : "None"
+            }]
+          }
+         },
+         "Implementation" : {
+          "Framerate" : 24,
+          "MaxRepeatCount" : 1,
+          "Drawings" : [
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000218d40"
+           }],
+          "Frames" : [
+           "0"]
+         }
+        }
+       ]
+      }
+     },
+     {
+      "Name" : "Untitled_city",
+      "Visible" : true,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Group",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Children" : [
+        {
+         "Name" : "NewLayer0",
+         "Visible" : true,
+         "Locked" : false,
+         "Collapsed" : false,
+         "BBoxVisible" : false,
+         "Opacity" : 1.000000,
+         "Type" : "Paint",
+         "IsModelTopLayer" : false,
+         "KeepAlive" : {
+          "Type" : "None"
+         },
+         "Transform" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+         },
+         "Pivot" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [-3.6591029357910156e+02,-1.6268820047378540e+01,1.1982472229003906e+02]
+         },
+         "Animation" : {
+          "Duration" : "0",
+          "Timeline" : false,
+          "StartOffset" : "0",
+          "MaxRepeatCount" : "0",
+          "Keys" : {
+           "Visibility" : [
+            {
+             "Time" : "0",
+             "Value" : true,
+             "Interpolation" : "None"
+            }],
+           "Offset" : [
+            {
+             "Time" : "0",
+             "Value" : 0,
+             "Interpolation" : "None"
+            }]
+          }
+         },
+         "Implementation" : {
+          "Framerate" : 24,
+          "MaxRepeatCount" : 1,
+          "Drawings" : [
+           {
+            "BoundingBox" : [-408.101074,440.900574,-28.347130,11.732700,-286.000214,587.602295],
+            "DataFileOffset" : "0000000000218d44"
+           }],
+          "Frames" : [
+           "0"]
+         }
+        },
+        {
+         "Name" : "Paint",
+         "Visible" : true,
+         "Locked" : false,
+         "Collapsed" : false,
+         "BBoxVisible" : false,
+         "Opacity" : 1.000000,
+         "Type" : "Paint",
+         "IsModelTopLayer" : false,
+         "KeepAlive" : {
+          "Type" : "None"
+         },
+         "Transform" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+         },
+         "Pivot" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [1.3441468811035156e+02,4.3897633361816412e+02,-1.1049835205078125e+01]
+         },
+         "Animation" : {
+          "Duration" : "0",
+          "Timeline" : false,
+          "StartOffset" : "0",
+          "MaxRepeatCount" : "0",
+          "Keys" : {
+           "Visibility" : [
+            {
+             "Time" : "0",
+             "Value" : true,
+             "Interpolation" : "None"
+            }],
+           "Offset" : [
+            {
+             "Time" : "0",
+             "Value" : 0,
+             "Interpolation" : "None"
+            }]
+          }
+         },
+         "Implementation" : {
+          "Framerate" : 24,
+          "MaxRepeatCount" : 1,
+          "Drawings" : [
+           {
+            "BoundingBox" : [-428.019989,696.849365,-443.245575,1321.198242,-687.552002,183.532822],
+            "DataFileOffset" : "000000000021c758"
+           }],
+          "Frames" : [
+           "0"]
+         }
+        },
+        {
+         "Name" : "Pyramid-crypto",
+         "Visible" : true,
+         "Locked" : false,
+         "Collapsed" : false,
+         "BBoxVisible" : false,
+         "Opacity" : 1.000000,
+         "Type" : "Group",
+         "IsModelTopLayer" : false,
+         "KeepAlive" : {
+          "Type" : "None"
+         },
+         "Transform" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+         },
+         "Pivot" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+         },
+         "Animation" : {
+          "Duration" : "0",
+          "Timeline" : false,
+          "StartOffset" : "0",
+          "MaxRepeatCount" : "0",
+          "Keys" : {
+           "Visibility" : [
+            {
+             "Time" : "0",
+             "Value" : true,
+             "Interpolation" : "None"
+            }],
+           "Offset" : [
+            {
+             "Time" : "0",
+             "Value" : 0,
+             "Interpolation" : "None"
+            }]
+          }
+         },
+         "Implementation" : {
+          "Children" : [
+           {
+            "Name" : "Paint",
+            "Visible" : true,
+            "Locked" : false,
+            "Collapsed" : false,
+            "BBoxVisible" : false,
+            "Opacity" : 1.000000,
+            "Type" : "Paint",
+            "IsModelTopLayer" : false,
+            "KeepAlive" : {
+             "Type" : "None"
+            },
+            "Transform" : {
+             "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+             "Scale" : 1.0000000000000000e+00,
+             "Flip" : "N",
+             "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+            },
+            "Pivot" : {
+             "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+             "Scale" : 1.0000000000000000e+00,
+             "Flip" : "N",
+             "Translation" : [2.9734106445312500e+02,-1.6265776367187502e+03,-1.9496875000000000e+02]
+            },
+            "Animation" : {
+             "Duration" : "0",
+             "Timeline" : false,
+             "StartOffset" : "0",
+             "MaxRepeatCount" : "0",
+             "Keys" : {
+              "Visibility" : [
+               {
+                "Time" : "0",
+                "Value" : true,
+                "Interpolation" : "None"
+               }],
+              "Offset" : [
+               {
+                "Time" : "0",
+                "Value" : 0,
+                "Interpolation" : "None"
+               }]
+             }
+            },
+            "Implementation" : {
+             "Framerate" : 24,
+             "MaxRepeatCount" : 1,
+             "Drawings" : [
+              {
+               "BoundingBox" : [-3830.214355,4424.896484,-10886.700195,7633.544922,-4399.861328,4009.923828],
+               "DataFileOffset" : "000000000026aacc"
+              }],
+             "Frames" : [
+              "0"]
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     },
+     {
+      "Name" : "Untitled_swords_01",
+      "Visible" : true,
+      "Locked" : false,
+      "Collapsed" : false,
+      "BBoxVisible" : false,
+      "Opacity" : 1.000000,
+      "Type" : "Group",
+      "IsModelTopLayer" : false,
+      "KeepAlive" : {
+       "Type" : "None"
+      },
+      "Transform" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Pivot" : {
+       "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+       "Scale" : 1.0000000000000000e+00,
+       "Flip" : "N",
+       "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+      },
+      "Animation" : {
+       "Duration" : "0",
+       "Timeline" : false,
+       "StartOffset" : "0",
+       "MaxRepeatCount" : "0",
+       "Keys" : {
+        "Visibility" : [
+         {
+          "Time" : "0",
+          "Value" : true,
+          "Interpolation" : "None"
+         }],
+        "Offset" : [
+         {
+          "Time" : "0",
+          "Value" : 0,
+          "Interpolation" : "None"
+         }]
+       }
+      },
+      "Implementation" : {
+       "Children" : [
+        {
+         "Name" : "InitialSpawnArea",
+         "Visible" : false,
+         "Locked" : false,
+         "Collapsed" : false,
+         "BBoxVisible" : false,
+         "Opacity" : 1.000000,
+         "Type" : "Viewpoint",
+         "IsModelTopLayer" : false,
+         "KeepAlive" : {
+          "Type" : "None"
+         },
+         "Transform" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+         },
+         "Pivot" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+         },
+         "Animation" : {
+          "Duration" : "0",
+          "Timeline" : false,
+          "StartOffset" : "0",
+          "MaxRepeatCount" : "0",
+          "Keys" : {
+           "Visibility" : [
+            {
+             "Time" : "0",
+             "Value" : true,
+             "Interpolation" : "None"
+            }],
+           "Offset" : [
+            {
+             "Time" : "0",
+             "Value" : 0,
+             "Interpolation" : "None"
+            }]
+          }
+         },
+         "Implementation" : {
+          "Version" : 1,
+          "Color" : [0.445499,0.112887,0.472867],
+          "Sphere" : [0.000000,1.000000,0.000000,2.000000],
+          "AllowTranslationX" : true,
+          "AllowTranslationY" : true,
+          "AllowTranslationZ" : true,
+          "DataFileOffset" : "0000000000717730",
+          "Exporting" : true,
+          "ShowingVolume" : false,
+          "TypeStr" : "FloorLevel"
+         }
+        },
+        {
+         "Name" : "Paint",
+         "Visible" : true,
+         "Locked" : false,
+         "Collapsed" : false,
+         "BBoxVisible" : false,
+         "Opacity" : 1.000000,
+         "Type" : "Paint",
+         "IsModelTopLayer" : false,
+         "KeepAlive" : {
+          "Type" : "None"
+         },
+         "Transform" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00]
+         },
+         "Pivot" : {
+          "Rotation" : [0.0000000000000000e+00,0.0000000000000000e+00,0.0000000000000000e+00,1.0000000000000000e+00],
+          "Scale" : 1.0000000000000000e+00,
+          "Flip" : "N",
+          "Translation" : [2.1586498260498047e+02,1.0184219360351563e+01,4.1221400451660156e+02]
+         },
+         "Animation" : {
+          "Duration" : "0",
+          "Timeline" : false,
+          "StartOffset" : "0",
+          "MaxRepeatCount" : "0",
+          "Keys" : {
+           "Visibility" : [
+            {
+             "Time" : "0",
+             "Value" : true,
+             "Interpolation" : "None"
+            }],
+           "Offset" : [
+            {
+             "Time" : "0",
+             "Value" : 0,
+             "Interpolation" : "None"
+            }]
+          }
+         },
+         "Implementation" : {
+          "Framerate" : 24,
+          "MaxRepeatCount" : 1,
+          "Drawings" : [
+           {
+            "BoundingBox" : [191.940536,239.789429,-121.010712,141.379150,302.574677,521.853333],
+            "DataFileOffset" : "0000000000817744"
+           },
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000864a28"
+           },
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000864a2c"
+           },
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000864a30"
+           },
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000864a34"
+           },
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000864a38"
+           },
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000864a3c"
+           },
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000864a40"
+           },
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000864a44"
+           },
+           {
+            "BoundingBox" : [100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000,100000002004087734272.000000,-100000002004087734272.000000],
+            "DataFileOffset" : "0000000000864a48"
+           }],
+          "Frames" : [
+           "0",
+           "2",
+           "3",
+           "4",
+           "5",
+           "6",
+           "7",
+           "8",
+           "9",
+           "9",
+           "9",
+           "1",
+           "1"]
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ }
+}
